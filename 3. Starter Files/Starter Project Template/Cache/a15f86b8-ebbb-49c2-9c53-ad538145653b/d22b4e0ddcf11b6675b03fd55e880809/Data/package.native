@@ -1,0 +1,29 @@
+- !<NativePackageDescriptor/42e605d0-9804-4bc7-83c5-a1ed8cb19acd>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 6
+    patch: 0
+    build: 25020519
+    type: Unset
+  Description: "Description: Script for managing animation states and transitions in a component-based animation system.\nIt allows the creation of animation states from single clips or blend trees, defines parameters for controlling \nanimations, and sets up transitions between states based on conditions. The script includes functionality for \ndebugging and visualizing the state machine and its parameters.\n\n\napi examples :\n"
+  SvgIcon: "<svg width=\"142\" height=\"136\" viewBox=\"0 0 142 136\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0.774902\" y=\"118.111\" width=\"117.81\" height=\"22.7587\" rx=\"8.5\" transform=\"rotate(-45 0.774902 118.111)\" fill=\"#ADFF00\"/>\n<rect x=\"63.9004\" y=\"8.03247\" width=\"85.1776\" height=\"19.2215\" rx=\"8\" transform=\"rotate(45 63.9004 8.03247)\" fill=\"#ADFF00\"/>\n<rect x=\"61.0464\" y=\"60.2436\" width=\"59.318\" height=\"22.7587\" rx=\"10\" transform=\"rotate(45 61.0464 60.2436)\" fill=\"#ADFF00\"/>\n<rect x=\"103.177\" y=\"102.756\" width=\"46.8301\" height=\"20.3636\" rx=\"10\" transform=\"rotate(135 103.177 102.756)\" fill=\"#ADFF00\"/>\n<rect x=\"142\" y=\"50.7217\" width=\"39.2567\" height=\"16.5771\" rx=\"8\" transform=\"rotate(135 142 50.7217)\" fill=\"#ADFF00\"/>\n<rect x=\"74.406\" y=\"21.2818\" width=\"38.3103\" height=\"16.5946\" rx=\"8\" transform=\"rotate(135 74.406 21.2818)\" fill=\"#ADFF00\"/>\n<circle cx=\"111.891\" cy=\"18.7425\" r=\"18.7425\" fill=\"#ADFF00\"/>\n</svg>\n"
+  InternalVersion: 13
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 55
+  ExportUid: 2d8b8466-01a4-44fd-b76f-fd1ae9206378
+  ComponentUid: ccb519a6-7cab-4a1f-8df2-aa355f5f5b1a
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  Instantiable: !<reference> a36e70df-3e7b-4dee-9510-ee7bcb2ff77c
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure/00000000-0000-0000-0000-000000000000>
+    Name: Animation State Manager
+    AssetId: 6R3v0yl3qs23lF98eCSsWa
+    Hash: 4bd9335f308f2c36132323e991417b4b
+    Version:
+      major: 1
+      minor: 2
+      patch: 0
+      build: 0

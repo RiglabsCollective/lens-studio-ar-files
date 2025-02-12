@@ -1,0 +1,76 @@
+- !<AssetImportMetadata/7efe1fa8-b08b-4352-953f-6c6946d14793>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 7cacf1cf-7a4b-431d-9a9c-de174fb89c59
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 7cacf1cf-7a4b-431d-9a9c-de174fb89c59
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7432801c-3322-452f-8434-ee19587bf474
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/97997e06-2c68-49d2-88dc-db6d4262e709>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/7432801c-3322-452f-8434-ee19587bf474>
+  SvgIcon: |
+    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.4329 24.9334H14.6204C14.3535 24.9334 14.3516 25.2564 14.3516 25.2564C14.3516 30.9055 18.3865 35.4852 24.0266 35.4852C29.6667 35.4852 33.7016 30.9055 33.7016 25.2564C33.7016 25.2564 33.7003 24.9334 33.4329 24.9334ZM29.4016 14.4355C27.7392 14.4355 26.3916 15.9073 26.3916 17.9886C26.3916 20.0699 27.7392 21.5418 29.4016 21.5418C31.064 21.5418 32.4116 20.0699 32.4116 17.9886C32.4116 15.9073 31.064 14.4355 29.4016 14.4355ZM21.6079 19.7113C21.6079 17.6301 20.2602 15.9429 18.5979 15.9429C16.9355 15.9429 15.5879 17.6301 15.5879 19.7113V19.819C15.5879 19.819 15.6618 20.0929 15.7934 20.0169C16.2468 19.7553 17.3844 19.2807 18.5342 19.2807C19.7275 19.2807 20.9343 19.7656 21.4036 20.024C21.5343 20.0959 21.6079 19.819 21.6079 19.819V19.7113ZM39.9515 39.9957C39.1657 40.4807 38.2401 40.761 37.2491 40.761L30.3244 40.814C30.321 40.814 30.7482 40.8145 30.7447 40.8145C29.0131 40.8145 28.2589 41.2641 27.5851 42.0159L23.4644 47.2867C23.0676 47.7943 22.2529 47.5137 22.2529 46.8695V42.1608C22.2473 41.2443 21.6124 40.816 20.701 40.814L10.6966 40.8149C7.87794 40.8149 5.59033 38.5236 5.59033 35.7005V11.0977C5.59033 11.0048 5.59313 10.9127 5.59786 10.8209C5.70622 8.09428 7.94695 5.92944 10.6966 5.92944H37.2491C40.099 5.92944 42.4092 8.2433 42.4092 11.0977V35.7005C42.4092 37.5535 41.4249 39.1307 39.9515 39.9957Z" fill="#D5DFEA"/>
+    </svg>
+
+  Description: |+
+    Bitmoji 3D allows you to easily download the 3D avatar of a Snapchat user, their friends, or their AI assistant, and add it to the scene.
+    API usage
+    // script.onDownloaded.add((gltfRoot) => \{ ... \})) - add calback for succesfull Bitmoji 3D download 
+    
+    // script.onDownloadFailed.add((e) => \{...\})) - add calback for succesfull Bitmoji 3D download 
+    
+    // script.download - call to download avatar for user specified in component inputs
+    
+    // script.downloadAvatar() - download avatar for a user specified in component inputs
+    
+    // script.downloadAvatarForUser(snapchatUser) - download avatar for specific user
+    
+  InternalVersion: 18
+  VersionMajor: 6
+  VersionMinor: 2
+  VersionPatch: 0
+  ComponentUid: 0005e0cc-4592-ac28-0000-000000067b6a
+  ExportUid: 5dadcf48-b65a-416c-8559-7c3d20e1140a
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    alignToBody: false
+    autoDownload: false
+    bitmojiModule: true
+    bitmojiType: false
+    bodyIndex: false
+    bodyTrackingPrefab: true
+    castShadow: false
+    characterSize: true
+    friendIndex: false
+    friendsComponent: false
+    materialHolder: true
+    mixamoAnimation: false
+    mode: false
+    remoteMediaModule: true
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - bitmojiType: 0
+      friendsComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      friendIndex: 0
+      mode: default
+      bodyIndex: 0
+      alignToBody: false
+      characterSize: 1.300000
+      mixamoAnimation: false
+      autoDownload: true
+      castShadow: true
+      bodyTrackingPrefab: !<reference.ObjectPrefab> 547eff1b-a4d6-4f30-9e67-86f366303ad6
+      remoteMediaModule: !<reference.RemoteMediaModule> 07f91dfd-6266-4759-b2a0-44c4e38c3fbc
+      bitmojiModule: !<reference.BitmojiModule> 69f58c13-2276-405e-9b0b-d4b29a8ac8cd
+      materialHolder: !<reference.Material> cc26159e-9723-4725-8360-d8f89797afef
+  ScriptTypes:
+    -
+      {}

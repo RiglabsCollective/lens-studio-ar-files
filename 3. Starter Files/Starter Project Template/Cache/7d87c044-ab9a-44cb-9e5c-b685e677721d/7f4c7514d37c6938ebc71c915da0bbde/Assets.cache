@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    bcc4bd57-d728-4d3f-9e11-b725378e7e76: 7d87c044-ab9a-44cb-9e5c-b685e677721d/7f4c7514d37c6938ebc71c915da0bbde/Data/touch_collision_cube.mesh
+  Assets:
+    - !<FileMesh/bcc4bd57-d728-4d3f-9e11-b725378e7e76>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 50.000000, y: 50.000000, z: 50.000000}
+  SourceHash: 7f4c7514d37c6938ebc71c915da0bbde
+  FileHash: 5b5f6f4cf4085d63a0cbebddc7f28b2f
+  NativePackageItems:
+    []

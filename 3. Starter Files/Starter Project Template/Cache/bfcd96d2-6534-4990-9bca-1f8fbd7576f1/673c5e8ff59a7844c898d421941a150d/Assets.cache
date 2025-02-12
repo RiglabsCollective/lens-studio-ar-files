@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c9b7e218-2eaf-45da-a62d-64759eac966f: bfcd96d2-6534-4990-9bca-1f8fbd7576f1/673c5e8ff59a7844c898d421941a150d/Data/Logo - Green.png
+  Assets:
+    - !<FileTexture/c9b7e218-2eaf-45da-a62d-64759eac966f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1000
+        Height: 1000
+  SourceHash: 673c5e8ff59a7844c898d421941a150d
+  FileHash: b9984e969852cd63d53fd5e9efc99dd3
+  NativePackageItems:
+    []

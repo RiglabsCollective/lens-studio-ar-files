@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/f0bcf25b-589f-42a9-9ca2-2c186c4183bc>
+  ImportedAssetIds:
+    BitmojiModule: !<reference> 69f58c13-2276-405e-9b0b-d4b29a8ac8cd
+  ImporterName: BitmojiModuleImporter
+  PrimaryAsset: !<reference> 69f58c13-2276-405e-9b0b-d4b29a8ac8cd
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d59390d4-265b-4a85-a85b-b472c6c1e110>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

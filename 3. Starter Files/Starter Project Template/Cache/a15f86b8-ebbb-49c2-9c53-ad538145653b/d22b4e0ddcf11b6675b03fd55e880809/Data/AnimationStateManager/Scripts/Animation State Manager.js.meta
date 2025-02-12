@@ -1,0 +1,92 @@
+- !<AssetImportMetadata/f2613ede-6f24-45de-b41f-ce0099f32e61>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a36e70df-3e7b-4dee-9510-ee7bcb2ff77c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a36e70df-3e7b-4dee-9510-ee7bcb2ff77c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> f2d97603-a4a6-453f-8788-29ff1cad0e8d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/c9852e5e-d147-44ec-8fdd-d8f277d5d8e2>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f2d97603-a4a6-453f-8788-29ff1cad0e8d>
+  SvgIcon: |
+    <svg width="142" height="136" viewBox="0 0 142 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0.774902" y="118.111" width="117.81" height="22.7587" rx="8.5" transform="rotate(-45 0.774902 118.111)" fill="#ADFF00"/>
+    <rect x="63.9004" y="8.03247" width="85.1776" height="19.2215" rx="8" transform="rotate(45 63.9004 8.03247)" fill="#ADFF00"/>
+    <rect x="61.0464" y="60.2436" width="59.318" height="22.7587" rx="10" transform="rotate(45 61.0464 60.2436)" fill="#ADFF00"/>
+    <rect x="103.177" y="102.756" width="46.8301" height="20.3636" rx="10" transform="rotate(135 103.177 102.756)" fill="#ADFF00"/>
+    <rect x="142" y="50.7217" width="39.2567" height="16.5771" rx="8" transform="rotate(135 142 50.7217)" fill="#ADFF00"/>
+    <rect x="74.406" y="21.2818" width="38.3103" height="16.5946" rx="8" transform="rotate(135 74.406 21.2818)" fill="#ADFF00"/>
+    <circle cx="111.891" cy="18.7425" r="18.7425" fill="#ADFF00"/>
+    </svg>
+
+  Description: |
+    Description: Script for managing animation states and transitions in a component-based animation system.
+    It allows the creation of animation states from single clips or blend trees, defines parameters for controlling 
+    animations, and sets up transitions between states based on conditions. The script includes functionality for 
+    debugging and visualizing the state machine and its parameters.
+    
+    
+    api examples :
+
+  InternalVersion: 13
+  VersionMajor: 1
+  VersionMinor: 2
+  VersionPatch: 0
+  ComponentUid: ccb519a6-7cab-4a1f-8df2-aa355f5f5b1a
+  ExportUid: 2d8b8466-01a4-44fd-b76f-fd1ae9206378
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    advanced: false
+    animationPlayer: false
+    createStatesFromClips: false
+    debugText: false
+    displayParameters: false
+    displayStates: false
+    editAnimationStates: false
+    editParameters: false
+    editTransitions: false
+    parameters: false
+    showDebug: false
+    states: false
+    tempClip: false
+    tempInput: false
+    transitions: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - tempClip:
+        clipName: ""
+        threshold: !<float> 0.000000
+      advanced: false
+      tempInput:
+        paramName: ""
+        type: Trigger
+        funcInt: Equal
+        funcFloat: IsLess
+        funcBool: IsLess
+        valueInt: 0
+        valueFloat: !<float> 0.000000
+      animationPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+      editAnimationStates: true
+      createStatesFromClips: false
+      states:
+        []
+      editParameters: false
+      parameters:
+        []
+      editTransitions: false
+      transitions:
+        []
+      showDebug: false
+      debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      displayParameters: false
+      displayStates: false
+  ScriptTypes:
+    -
+      {}

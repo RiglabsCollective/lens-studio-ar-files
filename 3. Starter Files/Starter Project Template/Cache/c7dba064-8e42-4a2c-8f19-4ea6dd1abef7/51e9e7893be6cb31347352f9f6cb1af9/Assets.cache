@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    37f25ada-1a83-4ef2-9cc3-dc081f6955ee: c7dba064-8e42-4a2c-8f19-4ea6dd1abef7/51e9e7893be6cb31347352f9f6cb1af9/Data/Logo - Pink.png
+  Assets:
+    - !<FileTexture/37f25ada-1a83-4ef2-9cc3-dc081f6955ee>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1000
+        Height: 1000
+  SourceHash: 51e9e7893be6cb31347352f9f6cb1af9
+  FileHash: 6b355584ab59ab71cfd62f8943537bf3
+  NativePackageItems:
+    []

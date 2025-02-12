@@ -1,0 +1,22 @@
+ExternalSources:
+  type: "std::map<class Es::Uuid,class Es::Path,struct std::less<class Es::Uuid>,class std::allocator<struct std::pair<class Es::Uuid const ,class Es::Path> > >"
+  value:
+    - 04227d16-a5ff-4035-8d55-1df4348eaa5b: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Logo - Red.png"
+    - 0a2a712c-ab30-410c-93a7-f1138b12b405: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Logo - Teal.png"
+    - 246836f6-0315-434f-8701-47fd3b9fa389: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Demon Slayer Zenitsu.png"
+    - 2a3a9b06-44eb-4c60-9059-d2b78b6b27e8: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Logo - Violet.png"
+    - 2a634a87-cbe6-42cd-9b0c-137072afe7d1: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Figma.png"
+    - 30cb1eed-98f1-4c89-a053-135056285698: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/2. Save your Animations/Stumble.fbx"
+    - 35703590-6bb9-45aa-8561-c2893cbba9f2: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Star Wars.png"
+    - 4db01363-be2d-4518-91ad-8132ab6722a7: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Logo - Blue.png"
+    - 5f15da8f-8cf5-4fd0-a702-3deabcbdae54: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/2. Save your Animations/Wave.fbx"
+    - 6cb343ea-fd88-4d0e-9aec-3be3f1e0f45f: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/GTA.png"
+    - 856b5d97-a558-4575-a729-8504709119a1: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/2. Save your Animations/Idle.fbx"
+    - 94a86ab2-afe6-4d3a-ac71-23e9d108273e: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Guardians of the internet.png"
+    - bfcd96d2-6534-4990-9bca-1f8fbd7576f1: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Logo - Green.png"
+    - c7dba064-8e42-4a2c-8f19-4ea6dd1abef7: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Logo - Pink.png"
+    - e0ab6535-d87b-4481-ba66-91b0f910e70b: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Logo - Yellow.png"
+    - e67cfd93-9d13-466c-b8b3-a372400638aa: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Logo - Turquoise.png"
+    - e9bab6c3-d731-4114-adfc-da0ef7a95977: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/2. Save your Animations/Dance.fbx"
+    - f4dd45b6-dd15-4751-8e46-34a7a99a0988: "C:/Users/wizar/Downloads/Lens Studio 5.0 Tutorial/_Setup/3. Stickers/Logo - Orange.png"
+  options: 4

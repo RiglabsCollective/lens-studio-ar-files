@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    05bd0b4e-b90e-4c0a-b608-7deb7a2f8746: e67cfd93-9d13-466c-b8b3-a372400638aa/4af9deada1fdeef78d812072ca246611/Data/Logo - Turquoise.png
+  Assets:
+    - !<FileTexture/05bd0b4e-b90e-4c0a-b608-7deb7a2f8746>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1000
+        Height: 1000
+  SourceHash: 4af9deada1fdeef78d812072ca246611
+  FileHash: e2a7fda8505e7d26d3425b4978f38e84
+  NativePackageItems:
+    []

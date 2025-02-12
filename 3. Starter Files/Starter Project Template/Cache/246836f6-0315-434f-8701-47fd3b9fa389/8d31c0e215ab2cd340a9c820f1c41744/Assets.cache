@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5cd8f490-9efb-4f3d-9e79-e0af4d855fb5: 246836f6-0315-434f-8701-47fd3b9fa389/8d31c0e215ab2cd340a9c820f1c41744/Data/Demon Slayer Zenitsu.png
+  Assets:
+    - !<FileTexture/5cd8f490-9efb-4f3d-9e79-e0af4d855fb5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1000
+        Height: 1000
+  SourceHash: 8d31c0e215ab2cd340a9c820f1c41744
+  FileHash: 2f74ed795cb6086d9e669c50b0d81be9
+  NativePackageItems:
+    []

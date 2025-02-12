@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2729bc2d-9eaa-4566-acd3-9ecc711c1e3a: 35703590-6bb9-45aa-8561-c2893cbba9f2/a81263a941204032fc740b79afc96077/Data/Star Wars.png
+  Assets:
+    - !<FileTexture/2729bc2d-9eaa-4566-acd3-9ecc711c1e3a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1000
+        Height: 1000
+  SourceHash: a81263a941204032fc740b79afc96077
+  FileHash: 793b0fced6014351803bf31b3d4ac825
+  NativePackageItems:
+    []

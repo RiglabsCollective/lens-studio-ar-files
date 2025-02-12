@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    88f21a14-5247-40e4-8b6e-829322cb501e: 3df6b3bf-40ce-462f-aa0e-c16613fc2c5c/0399cb69bd64de72c9cc67900aafd8f4/Data/hat_magic_color.png
+  Assets:
+    - !<FileTexture/88f21a14-5247-40e4-8b6e-829322cb501e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 0399cb69bd64de72c9cc67900aafd8f4
+  FileHash: e6f06abbab076f0f0a6cf81a4be10d80
+  NativePackageItems:
+    []

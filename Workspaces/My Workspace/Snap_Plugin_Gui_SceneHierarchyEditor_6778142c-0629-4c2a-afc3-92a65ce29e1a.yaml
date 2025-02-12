@@ -1,14 +1,16 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 6
+    size: 8
     values:
-      - 0e32dcab-255b-4f70-8498-72297f23cc07
-      - 60dc7ca2-9c90-40fb-903e-05a4acb82fc3
-      - 73981e28-ff25-4d96-95c9-af48cbf7eb9e
-      - 88c508a5-ea2f-4a96-9243-8deccff8f0be
-      - c0aae83b-d6d6-45da-8d95-e30f791f3b1a
-      - dc6366e3-6738-436e-81af-d7aeaae0a1f8
+      - 20dacbed-5959-455e-adf9-b3cf4968f717
+      - 47da0d05-98dd-4bb4-8d62-0cba49ac515f
+      - 647d5ce6-204b-48be-95aa-2c179a849f32
+      - 83bdee6e-071f-4165-a9d7-6663e02c2b17
+      - 85db3f96-5f1e-4b35-8686-fd62094fe485
+      - 8b8fa690-031d-4441-b628-89f85ee0a9f2
+      - ad91f93c-1ebb-4355-a1de-bc7cfcbedfc4
+      - bf162986-6564-4747-9151-e1ed21ea4be8
   options: 4
 PinnedEntities:
   type: uuids

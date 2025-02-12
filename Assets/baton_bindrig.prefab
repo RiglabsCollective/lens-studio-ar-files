@@ -1,0 +1,161 @@
+- !<ObjectPrefab/5e20cf06-51b1-430e-bbf5-59226cc7bc04>
+  PackagePath: ""
+  objects:
+    - !<own> 9dbd2bcb-c256-403d-953e-d934d0f02150
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/0147150b-0bea-4954-9ecc-697a3931e5ea>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b2fba825-b2e8-455b-8879-b4eb25b2ea8a
+  Components:
+    []
+- !<SceneObject/08b300bd-c95d-4fec-bb93-854ac89f007b>
+  PrefabRemaps:
+    []
+  Name: baton_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ff939d78-270e-4898-90c3-3d9ae73e78fe
+  Components:
+    []
+- !<SceneObject/35e240d6-08ef-4824-bd68-af8a8b5628c4>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 08b300bd-c95d-4fec-bb93-854ac89f007b
+  Components:
+    []
+- !<SceneObject/8503c276-061e-4649-9aec-2f91440b88be>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 35e240d6-08ef-4824-bd68-af8a8b5628c4
+    - !<own> 0147150b-0bea-4954-9ecc-697a3931e5ea
+  Components:
+    []
+- !<SceneObject/9dbd2bcb-c256-403d-953e-d934d0f02150>
+  PrefabRemaps:
+    []
+  Name: baton_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 13.000000, y: 3.198936, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: -19.455591}
+    scale: {x: 0.196354, y: 0.196354, z: 0.196354}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8503c276-061e-4649-9aec-2f91440b88be
+  Components:
+    - !<own> f79fe698-65df-47c8-8893-c90b20a49762
+- !<SceneObject/b2fba825-b2e8-455b-8879-b4eb25b2ea8a>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> dc6e904c-fd5c-4bb3-ba6d-88ca37c7f448
+  Components:
+    []
+- !<RenderMeshVisual/b3c404f9-416a-4379-86cd-64836a598dd7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0ed73299-1894-4e82-947c-0731b42c662a
+  Mesh: !<reference> 2cbf4e93-f7b1-4578-b8ae-53afdb8b07f8
+  Skin: !<reference> f79fe698-65df-47c8-8893-c90b20a49762
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/dc6e904c-fd5c-4bb3-ba6d-88ca37c7f448>
+  PrefabRemaps:
+    []
+  Name: C_batan_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Skin/f79fe698-65df-47c8-8893-c90b20a49762>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_batan_bind_JNT: !<reference> dc6e904c-fd5c-4bb3-ba6d-88ca37c7f448
+    C_baton_GEO: !<reference> ff939d78-270e-4898-90c3-3d9ae73e78fe
+    PROP: !<reference> 8503c276-061e-4649-9aec-2f91440b88be
+    baton_GRP: !<reference> 08b300bd-c95d-4fec-bb93-854ac89f007b
+    baton_bindrig: !<reference> 9dbd2bcb-c256-403d-953e-d934d0f02150
+    bind_GRP: !<reference> b2fba825-b2e8-455b-8879-b4eb25b2ea8a
+    geo_GRP: !<reference> 35e240d6-08ef-4824-bd68-af8a8b5628c4
+    rig_GRP: !<reference> 0147150b-0bea-4954-9ecc-697a3931e5ea
+- !<SceneObject/ff939d78-270e-4898-90c3-3d9ae73e78fe>
+  PrefabRemaps:
+    []
+  Name: C_baton_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b3c404f9-416a-4379-86cd-64836a598dd7

@@ -1,0 +1,107 @@
+- !<AssetImportMetadata/426489e3-0642-463c-9d74-bb4ed3390f06>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 495c98f8-8e03-435d-8f48-49a0ae9d4a85
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 495c98f8-8e03-435d-8f48-49a0ae9d4a85
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 0d6c6c76-2547-4018-b58f-057bcffa6bb7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/6f86e5bf-2220-4b7c-9e60-de3fa2af1a7f>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/0d6c6c76-2547-4018-b58f-057bcffa6bb7>
+  SvgIcon: |-
+    <?xml version="1.0" encoding="UTF-8"?>
+    <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 142.92 128.66">
+      <defs>
+        <style>
+          .cls-1 {
+            filter: url(#drop-shadow-1);
+          }
+    
+          .cls-2 {
+            fill-rule: evenodd;
+          }
+    
+          .cls-2, .cls-3 {
+            fill: #fff;
+          }
+    
+          .cls-4 {
+            fill: #33b884;
+          }
+        </style>
+        <filter id="drop-shadow-1" x="-9" y="-8.77" width="174" height="160" filterUnits="userSpaceOnUse">
+          <feOffset dx="7" dy="7"/>
+          <feGaussianBlur result="blur" stdDeviation="5"/>
+          <feFlood flood-color="#000" flood-opacity=".75"/>
+          <feComposite in2="blur" operator="in"/>
+          <feComposite in="SourceGraphic"/>
+        </filter>
+      </defs>
+      <g id="Layer_2-2" data-name="Layer_2">
+        <g id="Layer_1-2" class="cls-1">
+          <g>
+            <path class="cls-2" d="M81.25,56.45h7.24c7.19,0,13.03-5.83,13.03-13.03V13.03c0-7.19-5.83-13.03-13.03-13.03h-34.74c-7.19,0-13.03,5.83-13.03,13.03v30.4c0,7.19,5.83,13.03,13.03,13.03h4.34M88.49,31.79c0,8.82-7.78,15.97-17.37,15.97s-17.37-7.15-17.37-15.97c0-.47.02-.94.07-1.4,5.28,0,9.09,0,12.85.01,5.72.01,11.32.02,21.76,0,.04.45.06.91.06,1.38h0ZM81.97,21.71c3.6,0,6.51-2.92,6.51-6.51s-2.92-6.51-6.51-6.51-6.51,2.92-6.51,6.51,2.92,6.51,6.51,6.51ZM63.81,21.24c-1.02-.35-2.24-.77-3.55-.77s-2.52.42-3.55.77c-1.79.61-2.97,1.02-2.97-1.39,0-3.77,2.92-6.83,6.51-6.83s6.51,3.06,6.51,6.83c0,2.4-1.18,2-2.97,1.39h.02Z"/>
+            <path class="cls-4" d="M48.47,76.58l4.82-8.13c0-4.71,5.98-6.29,13.54-6.29h8.58c7.55,0,13.2,1.58,13.2,6.29l5.15,8.13c6.73,8.47-2.56,18.64-17.7,19.03h-9.9c-15.14-.39-24.43-10.56-17.7-19.03h.01Z"/>
+            <path class="cls-4" d="M81.99,102.41l4.34-2.51c5.18-3,13.08-.46,13.08,4.21v19.05c3.43,4.72-3.57,5.5-7.96,5.5h-4.34c-4.4,0-10.91,0-7.96-5.5v-16.54c0-1.63,1.04-3.17,2.85-4.21h-.01Z"/>
+            <path class="cls-4" d="M60.25,102.41l-4.34-2.51c-5.18-3-13.08-.46-13.08,4.21v19.05c-3.43,4.72,3.57,5.5,7.96,5.5h4.34c4.4,0,10.91,0,7.96-5.5v-16.54c0-1.63-1.04-3.17-2.85-4.21h0Z"/>
+            <path class="cls-4" d="M133.4,64.12h-29.68c-5.31,0-9.57,4.38-9.43,9.68h0c.12,4.64,3.59,8.5,8.19,9.11l29.76,3.96c5.73.76,10.79-3.76,10.68-9.53l-.08-3.96c-.1-5.14-4.29-9.26-9.44-9.26h0Z"/>
+            <path class="cls-4" d="M9.51,62.16h29.68c5.31,0,9.57,4.38,9.43,9.68h0c-.12,4.64-3.59,8.5-8.19,9.11l-29.76,3.96C4.95,85.68-.11,81.16,0,75.38l.08-3.96c.1-5.14,4.29-9.26,9.44-9.26h0Z"/>
+            <circle class="cls-3" cx="132.71" cy="75.54" r="6.8"/>
+            <circle class="cls-3" cx="9.52" cy="73.58" r="6.8"/>
+            <circle class="cls-3" cx="89.37" cy="120.1" r="6.8"/>
+            <circle class="cls-3" cx="52.87" cy="120.1" r="6.8"/>
+          </g>
+        </g>
+      </g>
+    </svg>
+  Description: "This script attaches a specified object to a selected joint on the Bitmoji rig. "
+  InternalVersion: 3
+  VersionMajor: 1
+  VersionMinor: 1
+  VersionPatch: 0
+  ComponentUid: 8f381ac2-a44f-4fe1-82b8-3d99392a69e9
+  ExportUid: d4f0a902-9697-46ef-9427-ae21ac660919
+  CurrentVisibility: Locked
+  MaxVisibility: Locked
+  ScriptInputsHidden:
+    animationPlayer: false
+    bitmoji: false
+    hasAnimation: false
+    jointName: false
+    object: false
+    objectScale: false
+    objectToAttach: false
+    playAnimationOnLoad: false
+    positionOffset: false
+    prefab: false
+    rotationOffset: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - bitmoji: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectToAttach: ""
+      sceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      positionOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      scale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      rotationOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      connectToRig: ""
+      seconds: !<float> 2.000000
+      adaptToMixamo: false
+      scalse: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      objectScale: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      jointName: Head
+      obje: objectPrefab
+      objec: objectPrefab
+      object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hasAnimation: false
+      playAnimationOnLoad: false
+      animationPlayer: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

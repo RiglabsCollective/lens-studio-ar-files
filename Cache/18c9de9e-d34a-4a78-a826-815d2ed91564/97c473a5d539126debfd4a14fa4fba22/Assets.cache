@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    2cbf4e93-f7b1-4578-b8ae-53afdb8b07f8: 18c9de9e-d34a-4a78-a826-815d2ed91564/97c473a5d539126debfd4a14fa4fba22/Data/C_baton_GEO.mesh
+  Assets:
+    - !<FileMesh/2cbf4e93-f7b1-4578-b8ae-53afdb8b07f8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 288
+        Vertices: 312
+        Blendshapes:
+          []
+        Joints: 1
+        AabbSize: {x: 6.659863, y: 6.659865, z: 48.103905}
+  SourceHash: 97c473a5d539126debfd4a14fa4fba22
+  FileHash: c743230c71a9c2cc4e69faf3e9d3107c
+  NativePackageItems:
+    []

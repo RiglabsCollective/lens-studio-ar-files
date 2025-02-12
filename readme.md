@@ -2,7 +2,7 @@
 
 Access the official [Riglabs Collective](https://riglabs.co) starter files to get started with Lens Studio Workshops.
 
->### [Animated Dancing Bitmoji](https://github.com/RiglabsCollective/lens-studio-ar-files/tree/02-Animated-Dancing-Bitmoji)
+>### Animated Dancing Bitmoji
 > Download the [helper document](https://raw.githubusercontent.com/RiglabsCollective/lens-studio-ar-files/d9e45c9f4a12afd5c4d129a941d89000eb0559a0/Animated%20Dancing%20Bitmoji.pdf) to get started with this project.
 
 ## System Requirements for Lens Studio 5.6.1

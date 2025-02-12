@@ -1,0 +1,74 @@
+- !<AssetImportMetadata/4becfdda-5fc4-4df9-8b21-028e4c5661a9>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d558339a-df10-4702-a6f0-2676cdb11bc9
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d558339a-df10-4702-a6f0-2676cdb11bc9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 25f82a8f-319a-414f-bf38-f8332d45e0b9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d9d7bedf-726e-4104-b6c7-228b933d7aa8>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/25f82a8f-319a-414f-bf38-f8332d45e0b9>
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M23.5327 25.3346L23.7858 25.6776C24.4308 26.5519 23.9129 27.7983 22.8383 27.9582L18.9124 28.5424C16.9308 28.8373 14.9151 28.8169 12.9398 28.482L9.09866 27.8307C8.05238 27.6533 7.56876 26.428 8.21181 25.5838L8.48239 25.2286C9.47544 23.9249 11.122 23.2973 12.7309 23.6093C14.8302 24.0163 16.9877 24.0219 19.0891 23.6258L19.1535 23.6137C20.8226 23.299 22.5244 23.9678 23.5327 25.3346L24.3374 24.7409L23.5327 25.3346Z" fill="#D9D9D9" stroke="#D0DAE6" stroke-width="2" stroke-linecap="round"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11 12.0003C11 11.2363 11.3767 10 12.6765 10C13.9763 10 14.353 11.2363 14.353 12.0003C14.353 12.764 13.9763 14 12.6765 14C11.3767 14 11 12.764 11 12.0003ZM19.3825 12.7923C18.7518 12.7923 18.358 12.874 18.1121 12.9743C17.9336 13.047 17.7392 12.9197 17.7679 12.7457C17.8923 11.9913 18.2663 10.7783 19.3825 10.7783C20.4987 10.7783 20.8727 11.9913 20.9972 12.7457C21.0259 12.9197 20.8314 13.047 20.6529 12.9743C20.407 12.874 20.0132 12.7923 19.3825 12.7923Z" fill="#FFDA00"/>
+    <path d="M8.01004 9.125C8.01004 7.18876 8.91237 5.69409 10.3536 4.65102C11.8194 3.59008 13.8506 3 16 3C18.1494 3 20.1806 3.59008 21.6464 4.65102C23.0876 5.69409 23.99 7.18876 23.99 9.125C23.99 9.36136 23.9923 9.60747 23.9947 9.86163C24.0033 10.7729 24.0129 11.7876 23.9196 12.8275C23.8003 14.1569 23.5204 15.3853 22.942 16.3158C22.786 16.5667 22.4385 16.9392 21.8933 17.3766C21.3644 17.8009 20.7066 18.2409 19.9946 18.6387C18.529 19.4576 17.0096 20 16 20C14.993 20 13.469 19.4496 11.9976 18.6242C11.2835 18.2236 10.6241 17.7818 10.0957 17.3588C9.54959 16.9216 9.20699 16.5547 9.05848 16.3158C8.48004 15.3853 8.20005 14.1568 8.08062 12.8274C7.98716 11.787 7.99673 10.7717 8.00533 9.86013C8.00772 9.60649 8.01004 9.36088 8.01004 9.125Z" stroke="#FFDA00" stroke-width="2"/>
+    <path d="M9 12C9 13.6569 9.10457 15 8 15C6.89543 15 5 13.5 5 12C5 10.5 5.22876 9 6.33333 9C7.4379 9 9 10.3431 9 12Z" fill="#FFDA00"/>
+    <path d="M23.0029 12C23.0029 13.6569 22.8984 15 24.0029 15C25.1075 15 27.0029 13.5 27.0029 12C27.0029 10.5 26.7742 9 25.6696 9C24.565 9 23.0029 10.3431 23.0029 12Z" fill="#FFDA00"/>
+    </svg>
+
+  Description: |
+    Bitmoji Head
+    
+    The Bitmoji Head component animates a Bitmoji's head and mirrors the user's facial expressions in real-time.
+    
+    Usage:
+    Add to a scene and put Bitmoji 3D component that can be downloaded from the Asset Library.
+    Ensure that the Bitmoji Head component is set to the same render layer as the Bitmoji 3D component.
+    
+    If you select `Attach To Head`, the Bitmoji Head will automatically attach to and follow the user's head movements.
+    If you do not select `Attach To Head`, manually position the Bitmoji 3D component within the scene as needed.
+
+  InternalVersion: 8
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: d00a655f-28c5-4a95-a336-8a6a3c3a8237
+  ExportUid: 41be2839-4fc2-4f9e-8d16-3707d305d161
+  CurrentVisibility: Locked
+  MaxVisibility: Locked
+  ScriptInputsHidden:
+    attachToHead: false
+    bitmoji3D: false
+    bitmojiFacePrefab: true
+    camera: false
+    lightingPrefab: true
+    occluderPrefab: true
+    rotateHead: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - bitmoji3D: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      attachToHead: false
+      rotateHead: false
+      bitmojiFacePrefab: !<reference.ObjectPrefab> e2199036-2c1b-481f-8062-de1aa60d4123
+      lightingPrefab: !<reference.ObjectPrefab> 19743ba8-b6e2-43e6-b733-e876c4a40792
+      occluderPrefab: !<reference.ObjectPrefab> c6debc0d-c366-4374-9e3d-14801f938194
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.ScriptComponent bitmoji3D {"label":"Bitmoji 3D"}'
+    - // @input Component.Camera camera
+    - '// @ui {"widget":"separator"}'
+    - // @input bool attachToHead
+    - '// @input bool rotateHead {"showIf":"attachToHead", "showIfValue":false}'
+    - // @input Asset.ObjectPrefab bitmojiFacePrefab
+    - // @input Asset.ObjectPrefab lightingPrefab
+    - // @input Asset.ObjectPrefab occluderPrefab

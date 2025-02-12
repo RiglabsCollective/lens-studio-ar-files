@@ -1,0 +1,38 @@
+- !<AssetImportMetadata/4aa6fba1-865c-4a29-968e-a0ab4094392d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6e4288a5-8d67-45c2-be25-2fb6c360f098
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6e4288a5-8d67-45c2-be25-2fb6c360f098
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> b4afdce5-752d-4cef-b463-66e2914bbe91
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings/cbf54000-0f65-4aa9-8f24-89396bdbc1da> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b4afdce5-752d-4cef-b463-66e2914bbe91>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a7e6e919-fed6-44c8-9ef7-d7a256214ba8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    deviceTexture: false
+    head: false
+    ml: false
+  ScriptTypesHidden: {}
+  DefaultScriptInputs:
+    - ml: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      head: !<reference.Head> 00000000-0000-0000-0000-000000000000
+      deviceTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    - {}
+  InputLines:
+    - // @input Component.MLComponent ml
+    - // @input Component.Head head
+    - // @input Asset.Texture deviceTexture

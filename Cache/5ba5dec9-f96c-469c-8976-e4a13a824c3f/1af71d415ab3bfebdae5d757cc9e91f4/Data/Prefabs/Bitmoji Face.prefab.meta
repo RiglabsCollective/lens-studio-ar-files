@@ -1,0 +1,1159 @@
+- !<AssetImportMetadata/7564d36c-a7db-457d-a4d7-6b9446178446>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e2199036-2c1b-481f-8062-de1aa60d4123
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e2199036-2c1b-481f-8062-de1aa60d4123
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> ebfa300c-ac98-4c76-a393-493470af3c63
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<RenderMeshVisual/050137f6-57e7-4061-af88-c53c986c7c70>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cf8fc978-984f-46fa-a67b-d1550c3f595a
+  Mesh: !<reference> 05c17eaf-9342-4559-8e98-594838a7267e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Camera/06c57b9c-b35e-4280-b313-a9d10b184269>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 0
+  MipmapLevel: 0
+  RenderOrder: 2
+  Size: 20.000000
+  Near: 1.000000
+  Far: 1000.000000
+  Fov: 60.000004
+  ClearColor: !<CameraClearColor>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth>
+    Mode: Value
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Perspective
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 4696504d-b805-4924-9e15-3061840d962b
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+- !<MLComponent/2a18745e-96c1-404d-a48b-209df5fdb31d>
+  PrefabRemaps:
+    []
+  Name: ML Component
+  Enabled: true
+  RenderOrder: 4
+  AutoBuild: true
+  AutoRun: true
+  Inputs:
+    - !<MLInput>
+      Name: input
+      Shape: {x: 64.000000, y: 64.000000, z: 3.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+      Transformer:
+        stretch: true
+        alignment.horizontal: Center
+        alignment.vertical: Center
+        fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        flipX: false
+        flipY: false
+        rotation: None
+      Texture: !<reference> c1ad9d1f-6ce2-4ab3-aa15-763bccb00787
+  Outputs:
+    - !<MLOutput>
+      Name: prob
+      Shape: {x: 1.000000, y: 1.000000, z: 1.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+      InputName: ""
+      OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Model: !<reference> f0324282-d1e3-4fac-bbab-2eb4156c29a7
+- !<SceneObject/3fe9b378-f36c-48ef-ae45-fbb4f81a2bb2>
+  PrefabRemaps:
+    []
+  Name: Face Mesh
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 050137f6-57e7-4061-af88-c53c986c7c70
+- !<ObjectPrefab/48f4da03-484b-41c5-8358-febf4fa57082>
+  PackagePath: ""
+  objects:
+    - !<own> 95b57266-ad16-49a5-b86d-7ea88a4a9f18
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/4df4e4ee-061d-4d05-81ac-92b73c33c43b>
+  PrefabRemaps:
+    []
+  Name: Eyeballs
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -1.427490, z: -3.618286}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.900000, y: 0.900000, z: 0.900000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 69fbf998-aa9e-4953-92cb-5c052b67006d
+    - !<own> be1fe7bc-4b85-4d8d-ab3e-3ae87adab47b
+  Components:
+    []
+- !<SceneObject/504ef155-1daa-4830-8279-3d534a9adf23>
+  PrefabRemaps:
+    []
+  Name: ML Component_glasses
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 100.000015, y: 0.000000, z: 80.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2a18745e-96c1-404d-a48b-209df5fdb31d
+- !<SceneObject/51473e0e-f6d6-49be-b670-d74170eadd5a>
+  PrefabRemaps:
+    []
+  Name: Effects
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 100.000000, y: 0.000000, z: -10.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 64a4f616-6e56-468e-82a3-b83383a7a0a0
+    - !<own> 4df4e4ee-061d-4d05-81ac-92b73c33c43b
+    - !<own> e6774c53-5c2d-4f85-a5e3-23ae52508a9a
+  Components:
+    []
+- !<SceneObject/64a4f616-6e56-468e-82a3-b83383a7a0a0>
+  PrefabRemaps:
+    []
+  Name: Head Binding 0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3fe9b378-f36c-48ef-ae45-fbb4f81a2bb2
+  Components:
+    - !<own> b4e8640e-783c-480f-a50b-e85a3207a67b
+- !<MLComponent/68c31db8-04ab-46c5-9e12-87e8e4229bb8>
+  PrefabRemaps:
+    []
+  Name: ML Component
+  Enabled: true
+  RenderOrder: 3
+  AutoBuild: true
+  AutoRun: true
+  Inputs:
+    - !<MLInput>
+      Name: landmarks+camera
+      Shape: {x: 1.000000, y: 1.000000, z: 139.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+      Transformer: ~
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+  Outputs:
+    - !<MLOutput>
+      Name: predictions
+      Shape: {x: 1.000000, y: 1.000000, z: 117.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+      InputName: ""
+      OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Model: !<reference> 72dae941-ebb5-40de-bd1e-b106e75a2d2e
+- !<SceneObject/69fbf998-aa9e-4953-92cb-5c052b67006d>
+  PrefabRemaps:
+    []
+  Name: Left Eye
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8368181a-5851-482a-9442-2f5b67df68eb
+    - !<own> 97ae1a72-48ae-4cea-b7a5-a9d6b774d06e
+  Components:
+    - !<own> 6b6c6658-bf85-40d2-9752-bceb8bec2889
+- !<SceneObject/6b2932a7-aa58-4439-97af-d531bff022b9>
+  PrefabRemaps:
+    []
+  Name: ML Component_face
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -68.671654, y: -11.318619, z: 50.966156}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 68c31db8-04ab-46c5-9e12-87e8e4229bb8
+- !<Head/6b6c6658-bf85-40d2-9752-bceb8bec2889>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: LeftEyeballCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/8368181a-5851-482a-9442-2f5b67df68eb>
+  PrefabRemaps:
+    []
+  Name: Sclera
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a604022c-e0da-4c64-bebb-9922993024d2
+- !<SceneObject/839687a4-28fd-4135-a8ac-f78daae0fb8b>
+  PrefabRemaps:
+    []
+  Name: ML_components
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6b2932a7-aa58-4439-97af-d531bff022b9
+    - !<own> a0708844-4cf8-4c56-8d59-477e955bf490
+    - !<own> 504ef155-1daa-4830-8279-3d534a9adf23
+  Components:
+    []
+- !<RenderMeshVisual/86939b82-822f-4d33-a9e4-9a7e8b60d310>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cf8fc978-984f-46fa-a67b-d1550c3f595a
+  Mesh: !<reference> 56486bf7-6b81-4800-9977-892816042096
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/95b57266-ad16-49a5-b86d-7ea88a4a9f18>
+  PrefabRemaps:
+    []
+  Name: Bitmoji Face
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 51473e0e-f6d6-49be-b670-d74170eadd5a
+    - !<own> ee132a6b-2c00-4a6b-af4f-95b6f04c5e79
+    - !<own> 839687a4-28fd-4135-a8ac-f78daae0fb8b
+  Components:
+    - !<own> e7f37fc2-500c-49ba-8795-6147803080b7
+- !<Head/97586816-9304-4749-a9cb-20d81d5112e2>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: RightEyeballCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/97ae1a72-48ae-4cea-b7a5-a9d6b774d06e>
+  PrefabRemaps:
+    []
+  Name: Choroid
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b31ce21f-233d-4664-baf0-dea24b24c2ce
+- !<RenderMeshVisual/9c03a92d-90c8-4209-b05f-025c37ccdce5>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cf8fc978-984f-46fa-a67b-d1550c3f595a
+  Mesh: !<reference> 97dc8cc5-2f2b-4827-8e9f-6cb5a6362b2a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9ed123a3-13b1-42c2-b5b5-a46e85cf26a5>
+  PrefabRemaps:
+    []
+  Name: Sclera
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 86939b82-822f-4d33-a9e4-9a7e8b60d310
+- !<SceneObject/a0708844-4cf8-4c56-8d59-477e955bf490>
+  PrefabRemaps:
+    []
+  Name: ML Component_tongue
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -68.671654, y: -11.318619, z: 50.966148}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dc907daf-687b-4686-9183-2a3ab8f6fbd1
+- !<RenderMeshVisual/a604022c-e0da-4c64-bebb-9922993024d2>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cf8fc978-984f-46fa-a67b-d1550c3f595a
+  Mesh: !<reference> 56486bf7-6b81-4800-9977-892816042096
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b31ce21f-233d-4664-baf0-dea24b24c2ce>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cf8fc978-984f-46fa-a67b-d1550c3f595a
+  Mesh: !<reference> 97dc8cc5-2f2b-4827-8e9f-6cb5a6362b2a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Head/b4e8640e-783c-480f-a50b-e85a3207a67b>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/be1fe7bc-4b85-4d8d-ab3e-3ae87adab47b>
+  PrefabRemaps:
+    []
+  Name: Right Eye
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9ed123a3-13b1-42c2-b5b5-a46e85cf26a5
+    - !<own> e70b9b7e-9c60-4bbb-9abb-a142ce9fcd98
+  Components:
+    - !<own> 97586816-9304-4749-a9cb-20d81d5112e2
+- !<ScriptComponent/cd338e67-c92e-4e40-8a93-86a50660ade7>
+  PrefabRemaps:
+    []
+  Name: BitmojiFaceML
+  Enabled: true
+  ScriptAsset: !<reference> 6e4288a5-8d67-45c2-be25-2fb6c360f098
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      ml: !<reference.MLComponent> 68c31db8-04ab-46c5-9e12-87e8e4229bb8
+      head: !<reference.Head> b4e8640e-783c-480f-a50b-e85a3207a67b
+      deviceTexture: !<reference.Texture> e61c70a7-914e-42f8-b84c-655143f58faf
+  ScriptTypes:
+    "":
+      {}
+- !<MLComponent/dc907daf-687b-4686-9183-2a3ab8f6fbd1>
+  PrefabRemaps:
+    []
+  Name: ML Component
+  Enabled: true
+  RenderOrder: 0
+  AutoBuild: true
+  AutoRun: true
+  Inputs:
+    - !<MLInput>
+      Name: image
+      Shape: {x: 128.000000, y: 128.000000, z: 1.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+      Transformer:
+        stretch: true
+        alignment.horizontal: Center
+        alignment.vertical: Center
+        fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        flipX: false
+        flipY: false
+        rotation: None
+      Texture: !<reference> ecce57d7-7e6f-44dd-b5c8-51ccd744c86c
+  Outputs:
+    - !<MLOutput>
+      Name: prob
+      Shape: {x: 1.000000, y: 1.000000, z: 1.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+      InputName: ""
+      OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Model: !<reference> 98336758-2ca8-402b-9fbc-113ad6c01741
+- !<SceneObject/e6774c53-5c2d-4f85-a5e3-23ae52508a9a>
+  PrefabRemaps:
+    []
+  Name: projCam
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 06c57b9c-b35e-4280-b313-a9d10b184269
+- !<SceneObject/e70b9b7e-9c60-4bbb-9abb-a142ce9fcd98>
+  PrefabRemaps:
+    []
+  Name: Choroid
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9c03a92d-90c8-4209-b05f-025c37ccdce5
+- !<ScriptComponent/e7f37fc2-500c-49ba-8795-6147803080b7>
+  PrefabRemaps:
+    []
+  Name: BitmojiFacePrefabInputs
+  Enabled: true
+  ScriptAsset: !<reference> 5d00708a-5ae1-4357-841c-132c8da79447
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      faceMesh: !<reference.RenderMeshVisual> 050137f6-57e7-4061-af88-c53c986c7c70
+      tongueML: !<reference.MLComponent> dc907daf-687b-4686-9183-2a3ab8f6fbd1
+      glassesML: !<reference.MLComponent> 2a18745e-96c1-404d-a48b-209df5fdb31d
+      head: !<reference.Head> b4e8640e-783c-480f-a50b-e85a3207a67b
+      mlController: !<MappingBased.BitmojiFaceML> cd338e67-c92e-4e40-8a93-86a50660ade7
+      leftEye: !<reference.SceneObject> 69fbf998-aa9e-4953-92cb-5c052b67006d
+      rightEye: !<reference.SceneObject> be1fe7bc-4b85-4d8d-ab3e-3ae87adab47b
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/ebfa300c-ac98-4c76-a393-493470af3c63>
+  SourceRemaps:
+    - 00598bbf-8366-4938-9db5-8c1aa6924c3b: 6b2932a7-aa58-4439-97af-d531bff022b9
+    - 02c1f0f4-bb52-4df7-8864-8a39eb4fd6c3: 9ed123a3-13b1-42c2-b5b5-a46e85cf26a5
+    - 0757849c-61fc-46e7-888c-baaf7b733d03: 9df53e70-d4ed-41a1-9a4f-cdf254bf6359
+    - 083f4661-0b0e-4814-bb30-93c98c8fec78: 6b6c6658-bf85-40d2-9752-bceb8bec2889
+    - 0a7b852d-c3b6-46b1-8272-08d3eaa84331: 95b57266-ad16-49a5-b86d-7ea88a4a9f18
+    - 101defb2-6ecd-443e-93cc-61af47d8afbb: 97ae1a72-48ae-4cea-b7a5-a9d6b774d06e
+    - 1a685457-0140-4e0b-bd7a-41ea8da67922: 51473e0e-f6d6-49be-b670-d74170eadd5a
+    - 2631843e-3a87-4112-a731-cdcfcfd9614d: 5202975f-6f66-45bc-9351-65f4b82614bc
+    - 281870f2-07d3-4220-84b8-57c269d8f009: cd338e67-c92e-4e40-8a93-86a50660ade7
+    - 2b5c48e6-a94d-48ee-9b00-5226d0b93b59: 64a4f616-6e56-468e-82a3-b83383a7a0a0
+    - 2b70ca48-2ba2-4234-b2fe-2abf2a08744a: 9c03a92d-90c8-4209-b05f-025c37ccdce5
+    - 34bd6959-79f1-4759-9fb3-1b74b39097e6: bfead2ef-0380-4a56-bdba-801207faf515
+    - 35a3e4e0-34b8-486e-be98-d265bd9fa2a5: 2a18745e-96c1-404d-a48b-209df5fdb31d
+    - 38d9ee23-a98b-4bf7-8c08-879512b95e81: be1fe7bc-4b85-4d8d-ab3e-3ae87adab47b
+    - 41764451-43eb-4788-be86-7922fce57adc: 3fe9b378-f36c-48ef-ae45-fbb4f81a2bb2
+    - 41814ea7-3f29-469b-8142-4aa688e3d13d: 8368181a-5851-482a-9442-2f5b67df68eb
+    - 4f6d9680-bfff-42f1-ad62-2a0097cfe135: 2df47b74-e723-4a58-9273-b838046028e0
+    - 5047ff06-62d6-438f-847b-8d6aa1156677: 86939b82-822f-4d33-a9e4-9a7e8b60d310
+    - 55a3fb6a-e2a3-4852-ab60-a0f2ea240421: 7a52df12-187f-4684-90e2-a46d7ab29e2c
+    - 6c6ba70c-8ba6-4c9f-b109-088d2cae4b31: 050137f6-57e7-4061-af88-c53c986c7c70
+    - 6dc34ecd-4ddc-43c5-870e-24aa67869ca5: 43482140-6aac-4a99-ba92-af7523cfb483
+    - 6ddd0031-6a5c-4869-bf57-93c1c2e059af: 69fbf998-aa9e-4953-92cb-5c052b67006d
+    - 80ac16e8-37df-46b2-abcd-9f9412adf768: b4e8640e-783c-480f-a50b-e85a3207a67b
+    - 8156c9c1-2608-4f38-a1f3-c5eece0526f2: 504ef155-1daa-4830-8279-3d534a9adf23
+    - 87aa08f1-3089-445f-b859-3b6cdb80dafb: 02973a00-9699-4613-be6b-cfdc38d89e84
+    - 92c5d8a8-9314-4464-8fc6-828d413ceaf6: e6774c53-5c2d-4f85-a5e3-23ae52508a9a
+    - 99157317-144a-494a-a0f8-06d377fa1c68: d71e7e51-260d-4f91-b819-e164c7dfc940
+    - 99a51b10-de11-47e1-bbf8-8357097e12e0: 25bf17bc-3502-4566-878d-bf29b8ff5537
+    - a553860e-da89-4855-ad71-b0c135aa72ba: 97586816-9304-4749-a9cb-20d81d5112e2
+    - a9887507-0bb3-451d-b4de-e9028c3c760a: a0708844-4cf8-4c56-8d59-477e955bf490
+    - a9baae9a-3b6a-4ca6-a5c7-f31e04bcb291: 06c57b9c-b35e-4280-b313-a9d10b184269
+    - bb27bdbb-5547-4048-9505-5a0f404396fc: e7f37fc2-500c-49ba-8795-6147803080b7
+    - c0dfbec1-f67c-40cb-926d-a2a820d90e0d: dc907daf-687b-4686-9183-2a3ab8f6fbd1
+    - c91d0860-0aef-49c6-9354-ef5cad7e0229: e70b9b7e-9c60-4bbb-9abb-a142ce9fcd98
+    - cc89850e-84dc-4afb-bd9b-10a5abc2ff73: 4df4e4ee-061d-4d05-81ac-92b73c33c43b
+    - de037740-b5ac-4ca9-a0c7-c9b4da8d588c: 08614dce-ad59-4f41-a2d4-8e12de4c24b9
+    - de31e33a-2b5d-4ee7-ba50-dc5b961d974e: ee132a6b-2c00-4a6b-af4f-95b6f04c5e79
+    - e4ff136d-80d0-4014-a3f9-2c7caedc5108: b31ce21f-233d-4664-baf0-dea24b24c2ce
+    - ee2f09ae-fdd7-4f5f-81ef-02cb78eab446: a604022c-e0da-4c64-bebb-9922993024d2
+    - f31a53f6-3772-4f3e-8d89-5952523310f3: 839687a4-28fd-4135-a8ac-f78daae0fb8b
+    - f551437a-5654-4ecf-ab7f-9b67cbbd9e91: 1918d403-7839-451a-9e43-f2e78cd038a2
+    - f7f8fc02-8897-49bb-8db3-9be660f77e4b: 68c31db8-04ab-46c5-9e12-87e8e4229bb8
+  SourceState: !<own> 48f4da03-484b-41c5-8358-febf4fa57082
+- !<SceneObject/ee132a6b-2c00-4a6b-af4f-95b6f04c5e79>
+  PrefabRemaps:
+    []
+  Name: ML_holder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cd338e67-c92e-4e40-8a93-86a50660ade7

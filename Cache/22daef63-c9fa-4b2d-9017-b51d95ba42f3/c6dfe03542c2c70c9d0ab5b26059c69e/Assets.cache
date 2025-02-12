@@ -1,0 +1,35 @@
+- !<AssetCache>
+  AssetFiles:
+    98336758-2ca8-402b-9fbc-113ad6c01741: 22daef63-c9fa-4b2d-9017-b51d95ba42f3/c6dfe03542c2c70c9d0ab5b26059c69e/Data/tongue_v0_4.dnn
+  Assets:
+    - !<FileMLAsset/98336758-2ca8-402b-9fbc-113ad6c01741>
+      PackagePath: ""
+      Inputs:
+        - !<MLInput>
+          Name: image
+          Shape: {x: 128.000000, y: 128.000000, z: 1.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+          Transformer:
+            stretch: true
+            alignment.horizontal: Center
+            alignment.vertical: Center
+            fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+            flipX: false
+            flipY: false
+            rotation: None
+          Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      Outputs:
+        - !<MLOutput>
+          Name: prob
+          Shape: {x: 1.000000, y: 1.000000, z: 1.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+          InputName: ""
+          OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SourceHash: c6dfe03542c2c70c9d0ab5b26059c69e
+  FileHash: db9f0157a0c4ae2ee8c1b18da0039a8d
+  NativePackageItems:
+    []

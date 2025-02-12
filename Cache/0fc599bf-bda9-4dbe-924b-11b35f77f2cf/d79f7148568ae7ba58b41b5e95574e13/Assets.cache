@@ -1,0 +1,536 @@
+- !<AssetCache>
+  AssetFiles:
+    72dae941-ebb5-40de-bd1e-b106e75a2d2e: 0fc599bf-bda9-4dbe-924b-11b35f77f2cf/d79f7148568ae7ba58b41b5e95574e13/Data/BlendshapeFitter_3dbitmoji-v7-good-puff1-np8_modified.dnn
+  Assets:
+    - !<FileMLAsset/72dae941-ebb5-40de-bd1e-b106e75a2d2e>
+      PackagePath: ""
+      Inputs:
+        - !<MLInput>
+          Name: landmarks+camera
+          Shape: {x: 1.000000, y: 1.000000, z: 139.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+          Transformer: ~
+          Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      Outputs:
+        - !<MLOutput>
+          Name: predictions
+          Shape: {x: 1.000000, y: 1.000000, z: 117.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+          InputName: ""
+          OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SourceHash: d79f7148568ae7ba58b41b5e95574e13
+  FileHash: 7dac9000459c7812ac7e0afc6e4778c9
+  NativePackageItems:
+    []

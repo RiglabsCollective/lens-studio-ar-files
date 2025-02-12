@@ -4,7 +4,7 @@ backCameraMultimedia:
   options: 4
 cameraType:
   type: int
-  value: 1
+  value: 0
   options: 4
 deviceType:
   type: string
@@ -12,11 +12,11 @@ deviceType:
   options: 4
 frameRate:
   type: int
-  value: 120
+  value: 30
   options: 4
 frontCameraMultimedia:
   type: string
-  value: PreviewResources.bundle/Video/Idle/Idle.mp4
+  value: PreviewResources.bundle/Video/Object Tracking/Body.mp4
   options: 4
 fullscreenSpectaclesSimulation:
   type: bool
@@ -36,7 +36,7 @@ mirrorHorizontally:
   options: 4
 previewSource:
   type: string
-  value: PreviewResources.bundle/Video/World/Beach.mp4
+  value: PreviewResources.bundle/Video/Object Tracking/Body.mp4
   options: 4
 previewType:
   type: string

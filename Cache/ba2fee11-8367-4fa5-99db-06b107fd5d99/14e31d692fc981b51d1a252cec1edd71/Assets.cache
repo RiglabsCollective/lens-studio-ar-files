@@ -1,0 +1,39 @@
+- !<AssetCache>
+  AssetFiles:
+    f0324282-d1e3-4fac-bbab-2eb4156c29a7: ba2fee11-8367-4fa5-99db-06b107fd5d99/14e31d692fc981b51d1a252cec1edd71/Data/glass_model.dnn
+  Assets:
+    - !<FileMLAsset/f0324282-d1e3-4fac-bbab-2eb4156c29a7>
+      PackagePath: ""
+      Inputs:
+        - !<MLInput>
+          Name: input
+          Shape: {x: 64.000000, y: 64.000000, z: 3.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+          Transformer:
+            stretch: true
+            alignment.horizontal: Center
+            alignment.vertical: Center
+            fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+            flipX: false
+            flipY: false
+            rotation: None
+          Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      Outputs:
+        - !<MLOutput>
+          Name: prob
+          Shape: {x: 1.000000, y: 1.000000, z: 1.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+          InputName: ""
+          OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SourceHash: 14e31d692fc981b51d1a252cec1edd71
+  FileHash: 12b37fddcd551b400cc5181ebb311cd4
+  NativePackageItems:
+    []

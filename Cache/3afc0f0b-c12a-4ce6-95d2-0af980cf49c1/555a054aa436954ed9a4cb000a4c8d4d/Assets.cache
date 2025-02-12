@@ -1,0 +1,19 @@
+- !<AssetCache>
+  AssetFiles:
+    a0494147-c370-4019-8ebf-931e0f6b1bd8: 3afc0f0b-c12a-4ce6-95d2-0af980cf49c1/555a054aa436954ed9a4cb000a4c8d4d/Data/occluder_GEO.mesh
+  Assets:
+    - !<FileMesh/a0494147-c370-4019-8ebf-931e0f6b1bd8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 304
+        Vertices: 612
+        Blendshapes:
+          - bs_shoulder_R
+          - bs_shoulder_L
+          - bs_headSize
+        Joints: 3
+        AabbSize: {x: 4.876296, y: 4.418887, z: 2.940280}
+  SourceHash: 555a054aa436954ed9a4cb000a4c8d4d
+  FileHash: fea6c8061029552235931ded029c544c
+  NativePackageItems:
+    []

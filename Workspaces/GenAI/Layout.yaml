@@ -1,0 +1,19 @@
+dock:
+  isLocked: false
+  main:
+    items:
+      - items:
+          - persistentName: Snap.Plugin.AssistantAI.Panel
+            Uuid: df91b2cf-37e1-401c-83fc-3d9f83343e71
+        type: section
+        current: 0
+      - items:
+          - persistentName: Snap.Plugin.Gui.PreviewPanel
+            Uuid: ba246238-d8a6-4f92-9d25-06305a22d449
+        type: section
+        current: 0
+    sizes:
+      - 1275
+      - 1274
+    type: splitter
+    orientation: horizontal

@@ -3,7 +3,7 @@
 Access the official [Riglabs Collective](https://riglabs.co) starter files to get started with Lens Studio Workshops.
 
 >### Bitmoji Head
-> Download the [helper document](https://raw.githubusercontent.com/RiglabsCollective/lens-studio-ar-files/f2a44f3c1c5e36de78ec8259c58c3e9c9f5cb618/Bitmoji%20Head.pdf) to get started with this project.
+> Download the [helper document](https://raw.githubusercontent.com/RiglabsCollective/lens-studio-ar-files/6372e5813177201f6938bcf861e7080b2a186d96/Bitmoji%20Head.pdf) to get started with this project.
 
 ## System Requirements for Lens Studio 5.6.1
 - **Operating System:** Windows 10 (64-bit) or macOS 11 (Big Sur) and above

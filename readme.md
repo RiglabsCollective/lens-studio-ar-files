@@ -9,7 +9,7 @@ Each branch in the repository corresponds to a distinct project.
 > Download all the starter files to start a project. This starter project contains some assets built specifically for [Animated Dancing Bitmoji](https://github.com/RiglabsCollective/lens-studio-ar-files/tree/02-Animated-Dancing-Bitmoji) along with some bonus contents. Enjoy creating new lens studio augmented reality effects!
 
 >### 01. [Bitmoji Head](https://github.com/RiglabsCollective/lens-studio-ar-files/tree/01-Bitmoji-Head)
-> Download the [helper document](https://raw.githubusercontent.com/RiglabsCollective/lens-studio-ar-files/7f099cf24402f76bdc5cfd0c73557c60edb0c92b/Bitmoji%20Head.pdf) to get started with this project.
+> Download the [helper document](https://raw.githubusercontent.com/RiglabsCollective/lens-studio-ar-files/183c729fd997ec01a8967fb242360e2a98d0c86d/Bitmoji%20Head.pdf) to get started with this project.
 
 >### 02. [Animated Dancing Bitmoji](https://github.com/RiglabsCollective/lens-studio-ar-files/tree/02-Animated-Dancing-Bitmoji)
 > Download the [helper document](https://raw.githubusercontent.com/RiglabsCollective/lens-studio-ar-files/7db2f9d0d03e67523271e103c70ea95176da0e49/Animated%20Dancing%20Bitmoji.pdf) to get started with this project.

@@ -3,7 +3,7 @@
 Access the official [Riglabs Collective](https://riglabs.co) starter files to get started with Lens Studio Workshops.
 
 >### Bitmoji Magician
-> Download the [helper document](https://raw.githubusercontent.com/RiglabsCollective/lens-studio-ar-files/fafccc73e4c1e25991ba641a12b672589ab013ca/Bitmoji%20Magician.pdf) to get started with this project.
+> Download the [helper document](https://raw.githubusercontent.com/RiglabsCollective/lens-studio-ar-files/5936929bd29bb46c66ac448eb45002920680e3c7/Bitmoji%20Magician.pdf) to get started with this project.
 
 ## System Requirements for Lens Studio 5.6.1
 - **Operating System:** Windows 10 (64-bit) or macOS 11 (Big Sur) and above
